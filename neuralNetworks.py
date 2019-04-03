@@ -1,15 +1,15 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-ax = plt.subplot(111)
-
-t = np.arange(0.0, 5.0, 0.01)
-s = np.cos(2*np.pi*t)
-line, = plt.plot(t, s, lw=2)
-
-plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
-            arrowprops=dict(facecolor='black', shrink=0.05),
-            )
-
-plt.ylim(-2,2)
-plt.show()
+# neural network class definition
+class neuralNetwork :
+	
+	# initialise the neural network
+	def _init_(self, inputnodes, hiddennodes, outputnodes, learningrate): 
+		# 
+		pass
+		
+	# train the neural network
+	def train():
+		pass
+		
+	# query the neural network
+	def query():
+		pass
