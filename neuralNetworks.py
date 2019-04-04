@@ -5,7 +5,7 @@ import scipy.special
 class neuralNetwork :
 	
 	# initialise the neural network
-	def _init_(self, inputnodes, hiddennodes, outputnodes, learningrate): 
+	def __init__(self, inputnodes, hiddennodes, outputnodes, learningrate): 
 		# set number of nodes in each input, hidden, output layer
 		self.inodes = inputnodes
 		self.hnodes = hiddennodes
@@ -44,6 +44,12 @@ class neuralNetwork :
 		# calculate the signals emerging from final output layer
 		final_outputs = self.activation_function( final_inputs)
 		return final_outputs
+input_nodes = 3
+hidden_nodes = 3
+output_nodes = 3
+learning_rate = 0.3
+n = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
+n.query([1.0, 0.5, -1.5])
 		
 
 
