@@ -36,14 +36,15 @@ class neuralNetwork :
 		# convert inputs list to 2d array 
 		inputs = np.array(inputs_list, ndmin= 2).T
 		# calculate signals into hidden layer 
-		hidden_inputs = np.dot( self.wih, inputs) 
+		hidden_inputs = np.dot(self.wih, inputs) 
 		# calculate the signals emerging from hidden layer 
 		hidden_outputs = self.activation_function( hidden_inputs) 
 		# calculate signals into final output layer 
-		final_inputs = np. dot( self.who, hidden_outputs) 
+		final_inputs = np.dot( self.who, hidden_outputs) 
 		# calculate the signals emerging from final output layer
 		final_outputs = self.activation_function( final_inputs)
 		return final_outputs
+		
 
 
 	
