@@ -1,0 +1,24 @@
+{
+    //"python.pythonPath": "c:\\Anaconda3\\pythonw.exe",
+   // "window.zoomLevel": 1,
+
+    // 以像素为单位控制字号。
+   // "editor.fontSize": 14,
+  //  "editor.mouseWheelZoom": true,
+
+    //忽略pylint检查代码时，出现无谓的波浪线的问题
+    "python.linting.pylintArgs": [
+        "--disable=W,C" 
+    ],
+
+    //配置python的路径
+    "python.pythonPath": "D:\\Projects\\Anaconda3\\python.exe",
+
+    // anaconda 虚拟环境目录
+    "python.venvPath": "D:\\Projects\\Anaconda3\\Lib\\venv",
+
+    // 虚拟环境具体目录
+    "python.venvFolders": [
+        "tf"   
+    ]
+}
