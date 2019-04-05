@@ -15,7 +15,7 @@
     "python.pythonPath": "D:\\Projects\\Anaconda3\\python.exe",
 
     // anaconda 虚拟环境目录
-    "python.venvPath": "D:\\Projects\\Anaconda3\\Lib\\venv",
+    "python.venvPath": "D:\\Projects\\Anaconda3\\envs",
 
     // 虚拟环境具体目录
     "python.venvFolders": [
