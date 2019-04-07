@@ -1,6 +1,6 @@
 import numpy as np
 # scipy. special for the sigmoid function expit() 
-import scipy.special
+from scipy.special import expit
 # neural network class definition
 class neuralNetwork :
 	
@@ -23,7 +23,7 @@ class neuralNetwork :
 		# learning rate 
 		self. lr = learningrate
 		# activation function is the sigmoid function 
-		self.activation_function = lambda x: scipy.special.expit(x)
+		self.activation_function = lambda x: expit(x)
 
 		pass
 		

@@ -8,9 +8,9 @@
 
     //忽略pylint检查代码时，出现无谓的波浪线的问题
     "python.linting.pylintArgs": [
-        "--disable=W,C" 
+        "--disable=W,C" ,"--extension-pkg-whitelist=scipy"
     ],
-
+   
     //配置python的路径
     "python.pythonPath": "D:\\Projects\\Anaconda3\\python.exe",
 
