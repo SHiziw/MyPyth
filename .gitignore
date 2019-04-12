@@ -1,2 +1,3 @@
 
 mnist_dataset/mnist_train.csv
+__pycache__/
